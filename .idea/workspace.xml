@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d6714f-274d-4169-ae3d-03afe3f78b45" name="Changes" comment="" />
+    <list default="true" id="22d6714f-274d-4169-ae3d-03afe3f78b45" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/author/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/branch/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/branch/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library_management_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/library_management_api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library_management_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/library_management_api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library_management_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/library_management_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library_management_api/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/library_management_api/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/loan/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/member/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publisher/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/publisher/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/room/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/django/contrib/auth/models.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2lqFOH5kt6xcUqIEBa6jr4uLulD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +53,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.library_management_api.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/MDX/Desktop/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -36,6 +83,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="library_management_api.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -70,11 +118,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725899665661</updated>
-      <workItem from="1725899667015" duration="29000" />
+      <workItem from="1725899667015" duration="1630000" />
+      <workItem from="1725986801489" duration="8392000" />
+      <workItem from="1726070676878" duration="2939000" />
+      <workItem from="1726163452363" duration="1559000" />
+      <workItem from="1726166256871" duration="1340000" />
+      <workItem from="1726242318721" duration="716000" />
+      <workItem from="1726243476914" duration="10171000" />
+      <workItem from="1726289402424" duration="820000" />
+      <workItem from="1726291989842" duration="26494000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/loan/views.py" line="56">
+        <watch expression="user_id" language="Python" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>
