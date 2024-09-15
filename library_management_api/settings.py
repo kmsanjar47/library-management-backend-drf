@@ -116,18 +116,33 @@ WSGI_APPLICATION = 'library_management_api.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'library_management',
+#         'USER': 'postgres',
+#         'PASSWORD': 'admin',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+#
+
+# Initialise environment variables
+# Database configuration
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'library_management',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('POSTGRES_DATABASE', 'verceldb'),
+        'USER': os.getenv('POSTGRES_USER', 'default'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'bL7xIiDj1uEo'),
+        'HOST': os.getenv('POSTGRES_HOST', 'ep-holy-base-a1q5qzrx-pooler.ap-southeast-1.aws.neon.tech'),
         'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',
+        },
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
